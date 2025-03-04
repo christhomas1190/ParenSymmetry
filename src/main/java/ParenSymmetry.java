@@ -4,7 +4,7 @@ import java.util.List;
 public class ParenSymmetry {
 
     public Boolean isBalanced(String s) {
-        return null;
+        return s.length() %2==0;
     }
 
     private void checkFile(String filename) {
