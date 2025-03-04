@@ -62,4 +62,8 @@ public class ParenSymmetryTest {
         }
     }
 
+    @Test
+    public void isBalancedText(){
+
+    }
 }
