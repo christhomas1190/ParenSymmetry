@@ -52,6 +52,9 @@
     "Application.ParenSymmetry.executor": "Run",
     "JUnit.ParenSymmetryTest.executor": "Run",
     "JUnit.ParenSymmetryTest.isBalanced1.executor": "Run",
+    "JUnit.ParenSymmetryTest.isBalanced3.executor": "Debug",
+    "JUnit.ParenSymmetryTest.isBalancedFalses.executor": "Run",
+    "JUnit.ParenSymmetryTest.isBalancedTrues.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -84,11 +87,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParenSymmetryTest.isBalanced1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParenSymmetryTest.isBalanced3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ParenSymmetry" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ParenSymmetryTest" />
-      <option name="METHOD_NAME" value="isBalanced1" />
+      <option name="METHOD_NAME" value="isBalanced3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,10 +120,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ParenSymmetryTest" />
-        <item itemvalue="Application.ParenSymmetry" />
-        <item itemvalue="JUnit.ParenSymmetryTest.isBalanced1" />
+        <item itemvalue="JUnit.ParenSymmetryTest.isBalanced3" />
         <item itemvalue="JUnit.ParenSymmetryTest.isBalancedFalses" />
         <item itemvalue="JUnit.ParenSymmetryTest.isBalancedTrues" />
+        <item itemvalue="Application.ParenSymmetry" />
       </list>
     </recent_temporary>
   </component>
@@ -145,5 +148,41 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ParenSymmetry.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ParenSymmetry.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ParenSymmetry.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ParenSymmetry.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ParenSymmetry.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ParenSymmetry.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

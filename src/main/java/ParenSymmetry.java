@@ -1,13 +1,40 @@
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.nio.file.Files;
 import java.util.Arrays;
 import java.util.List;
 
 public class ParenSymmetry {
 
     public Boolean isBalanced(String s) {
-        return s.length() %2==0;
+    int i = 0;
+    String idk="";
+    int idx =0;
+    while(idx < s.length()){
+        idk = String.valueOf(s.charAt(idx));
+            if( idk.equals("(")){
+                i++;
+            } else if( idk.equals(")")) {
+                i--;
+            }
+
+                else if( i <0 ){
+                    return false;
+            }
+        idx++;
+      }
+        return i==0;
     }
 
     private void checkFile(String filename) {
+        try {
+            FileInputStream file = new FileInputStream("filename.txt");
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+
+
+
         // open file named filename
 
         // for each line in the file
